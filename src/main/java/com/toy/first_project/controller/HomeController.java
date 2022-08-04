@@ -5,8 +5,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class HomeController {
-    @GetMapping("/home")
+
+    @GetMapping("/")
     public String home() {
-        return "MainView/index";
+        // service 에 표현할 데이터
+        // teams 에 표현할 데이터
+        // ㅇㅇㅇㅇ
+        return "main_view/index";
     }
+
+
 }
